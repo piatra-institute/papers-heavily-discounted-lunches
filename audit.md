@@ -3,6 +3,16 @@
 Dated log of editorial passes and verification runs. Newest first.
 See the workspace docs (run `papers docs`): writing-pipeline.md §7 and refresh-pipeline.md.
 
+## 2026-09-23 — prose revision
+
+Prose rewritten against the house standards. Headings made descriptive (1. Introduction, 2. Conservation constraints, 3. Accounting framework, 4. Sources and mechanisms of discounts, 5. Case studies with 5.1 Functional completeness and switching interfaces, 5.2 Benford's law as a matched prior, 5.3 Morphological computation, 5.4 Morphogenesis and competent components, 6. The inference ladder, 7. Research program, 8. Conclusion). The former closing paragraph of section 7 became section 8.
+
+Tic counts before -> after: 'rather than' 12 -> 0; inline ', not X' 4 -> 0; 'worth' 3 -> 0; 'what follows/here is' 2 -> 0; 'exactly/precisely' 5 -> 1 (the technical "recovers exactly" of compressed sensing); 'merely/simply' 4 -> 0.
+
+Corrections: none needed. Numerical claims rechecked: P(D=1) = log10 2 = 0.30103 -> 0.301 and P(D=9) = log10(10/9) = 0.04576 -> 0.046 are correct; the significand density 1/(s ln b) is correct; H_j = 1, 2, -1 correspond to tenfold saving, hundredfold saving, tenfold penalty. The inference ladder has seven levels (0 to 6) and six steps between them, as stated.
+
+Grid audit: not applicable (has_simulation: false; no computed thresholds).
+
 ## 2026-07-15 — first draft through publish
 
 Scope: authored the paper end to end from the seed conversation in `chats/chat.md` (a ChatGPT research exchange proposing the "Heavily Discounted Lunches" framework), through the full pipeline to a built and web-synced PDF.
