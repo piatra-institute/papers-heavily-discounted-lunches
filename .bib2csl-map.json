@@ -1,0 +1,344 @@
+[
+ {
+  "id": "berger2011",
+  "families": [
+   "Berger",
+   "Hill"
+  ],
+  "authors_text": "Berger, A., and Hill, T. P.",
+  "year": "2011",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "bongard2023",
+  "families": [
+   "Bongard",
+   "Levin"
+  ],
+  "authors_text": "Bongard, J., and Levin, M.",
+  "year": "2023",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "candes2006",
+  "families": [
+   "Candès",
+   "Romberg",
+   "Tao"
+  ],
+  "authors_text": "Candès, E. J., Romberg, J., and Tao, T.",
+  "year": "2006",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "clark1998",
+  "families": [
+   "Clark",
+   "Chalmers"
+  ],
+  "authors_text": "Clark, A., and Chalmers, D.",
+  "year": "1998",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "cohen2016",
+  "families": [
+   "Cohen",
+   "Welling"
+  ],
+  "authors_text": "Cohen, T., and Welling, M.",
+  "year": "2016",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "donoho2006",
+  "families": [
+   "Donoho"
+  ],
+  "authors_text": "Donoho, D. L.",
+  "year": "2006",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "draghi2010",
+  "families": [
+   "Draghi",
+   "Parsons",
+   "Wagner",
+   "Plotkin"
+  ],
+  "authors_text": "Draghi, J. A., Parsons, T. L., Wagner, G. P., and Plotkin, J. B.",
+  "year": "2010",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "durant2017",
+  "families": [
+   "Durant",
+   "Morokuma",
+   "Fields",
+   "Williams",
+   "Adams",
+   "Levin"
+  ],
+  "authors_text": "Durant, F., Morokuma, J., Fields, C., Williams, K., Adams, D. S., and Levin, M.",
+  "year": "2017",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "feigenbaum1978",
+  "families": [
+   "Feigenbaum"
+  ],
+  "authors_text": "Feigenbaum, M. J.",
+  "year": "1978",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "finn2017",
+  "families": [
+   "Finn",
+   "Abbeel",
+   "Levine"
+  ],
+  "authors_text": "Finn, C., Abbeel, P., and Levine, S.",
+  "year": "2017",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "gould1982",
+  "families": [
+   "Gould",
+   "Vrba"
+  ],
+  "authors_text": "Gould, S. J., and Vrba, E. S.",
+  "year": "1982",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "gumuskaya2024",
+  "families": [
+   "Gumuskaya",
+   "Srivastava",
+   "Cooper",
+   "Lesser",
+   "Semegran",
+   "Garnier",
+   "Levin"
+  ],
+  "authors_text": "Gumuskaya, G., Srivastava, P., Cooper, B. G., Lesser, H., Semegran, B., Garnier, S., and Levin, M.",
+  "year": "2024",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "hamming1950",
+  "families": [
+   "Hamming"
+  ],
+  "authors_text": "Hamming, R. W.",
+  "year": "1950",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "kashtan2005",
+  "families": [
+   "Kashtan",
+   "Alon"
+  ],
+  "authors_text": "Kashtan, N., and Alon, U.",
+  "year": "2005",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "kriegman2021",
+  "families": [
+   "Kriegman",
+   "Blackiston",
+   "Levin",
+   "Bongard"
+  ],
+  "authors_text": "Kriegman, S., Blackiston, D., Levin, M., and Bongard, J.",
+  "year": "2021",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "levin2022",
+  "families": [
+   "Levin"
+  ],
+  "authors_text": "Levin, M.",
+  "year": "2022",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "levin2026",
+  "families": [
+   "Levin"
+  ],
+  "authors_text": "Levin, M.",
+  "year": "2026",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "li2008",
+  "families": [
+   "Li",
+   "Vitányi"
+  ],
+  "authors_text": "Li, M., and Vitányi, P.",
+  "year": "2008",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "lu2014",
+  "families": [
+   "Lu",
+   "Joannopoulos",
+   "Soljačić"
+  ],
+  "authors_text": "Lu, L., Joannopoulos, J. D., and Soljačić, M.",
+  "year": "2014",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "mcgeer1990",
+  "families": [
+   "McGeer"
+  ],
+  "authors_text": "McGeer, T.",
+  "year": "1990",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "nakajima2015",
+  "families": [
+   "Nakajima",
+   "Hauser",
+   "Li",
+   "Pfeifer"
+  ],
+  "authors_text": "Nakajima, K., Hauser, H., Li, T., and Pfeifer, R.",
+  "year": "2015",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "odlingsmee2003",
+  "families": [
+   "Odling-Smee",
+   "Laland",
+   "Feldman"
+  ],
+  "authors_text": "Odling-Smee, F. J., Laland, K. N., and Feldman, M. W.",
+  "year": "2003",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "rissanen1978",
+  "families": [
+   "Rissanen"
+  ],
+  "authors_text": "Rissanen, J.",
+  "year": "1978",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "rothemund2006",
+  "families": [
+   "Rothemund"
+  ],
+  "authors_text": "Rothemund, P. W. K.",
+  "year": "2006",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "sheffer1913",
+  "families": [
+   "Sheffer"
+  ],
+  "authors_text": "Sheffer, H. M.",
+  "year": "1913",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "theraulaz1999",
+  "families": [
+   "Theraulaz",
+   "Bonabeau"
+  ],
+  "authors_text": "Theraulaz, G., and Bonabeau, E.",
+  "year": "1999",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "turing1952",
+  "families": [
+   "Turing"
+  ],
+  "authors_text": "Turing, A. M.",
+  "year": "1952",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "waddington1942",
+  "families": [
+   "Waddington"
+  ],
+  "authors_text": "Waddington, C. H.",
+  "year": "1942",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "wagner1996",
+  "families": [
+   "Wagner",
+   "Altenberg"
+  ],
+  "authors_text": "Wagner, G. P., and Altenberg, L.",
+  "year": "1996",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "wolpert1997",
+  "families": [
+   "Wolpert",
+   "Macready"
+  ],
+  "authors_text": "Wolpert, D. H., and Macready, W. G.",
+  "year": "1997",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "wolpert1969",
+  "families": [
+   "Wolpert"
+  ],
+  "authors_text": "Wolpert, L.",
+  "year": "1969",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "zaheer2017",
+  "families": [
+   "Zaheer",
+   "Kottur",
+   "Ravanbakhsh",
+   "Póczos",
+   "Salakhutdinov",
+   "Smola"
+  ],
+  "authors_text": "Zaheer, M., Kottur, S., Ravanbakhsh, S., Póczos, B., Salakhutdinov, R., and Smola, A. J.",
+  "year": "2017",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "zhang2024",
+  "families": [
+   "Zhang",
+   "Goldstein",
+   "Levin"
+  ],
+  "authors_text": "Zhang, T., Goldstein, A., and Levin, M.",
+  "year": "2024",
+  "status": "VERIFIED-CROSSREF"
+ }
+]

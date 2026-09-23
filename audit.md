@@ -3,6 +3,15 @@
 Dated log of editorial passes and verification runs. Newest first.
 See the workspace docs (run `papers docs`): writing-pipeline.md §7 and refresh-pipeline.md.
 
+## 2026-09-23 — structured-evidence migration
+
+Structured-evidence migration (references and claims).
+- references.yaml: 33 CSL entries. 25 matched in Crossref by title, authors and year; donoho2006, wagner1996 and gumuskaya2024 resolved through doi.org; cohen2016, finn2017 and zaheer2017 entered from PMLR/NeurIPS proceedings pages; li2008 and odlingsmee2003 from publisher details; levin2026 from the blog post (thoughtforms.life, 2026-03-31). In-text citations converted to Pandoc [@id] syntax; legacy reference list replaced by the citeproc-rendered list (Chicago author-date).
+- Corrections: gumuskaya2024 automatic match was the journal's cover-image record (10.1002/advs.202470026), replaced by the article (10.1002/advs.202303575); levin2026 title completed to the post's full title ("A Short Argument on Platonic Space: Variable-Agency Patterns That In-Form Physics, Biology, Computer Science, and Cognitive Science"); zhang2024 updated from arXiv:2401.05375 to its published version (Adaptive Behavior 33(1), 25-54, DOI 10.1177/10597123241269740); article numbers/pages added (berger2011 1-126, bongard2023 110, kriegman2021 e2112672118, levin2022 768201, nakajima2015 10487); Candès accent and Waddington title casing restored.
+- claims.yaml: 36 claims (16 source, 11 interpretation, 4 definition, 3 assumption, 2 normative). No simulation; the Benford probabilities 0.301 and 0.046 are bound as arithmetic from the stated law.
+- Source statements not bound: the triangle example attributed to Levin (not found in the blog post; the ion-channel/truth-table example is confirmed), sheffer1913, li2008 (information bound), rissanen1978, cohen2016/zaheer2017, finn2017, clark1998, odlingsmee2003, hamming1950, waddington1942, lu2014, feigenbaum1978, wolpert1969, draghi2010, wagner1996, levin2022 (no abstract retrieved or abstract not covering the specific statement).
+- metadata claims_target: claim-ledger.
+
 ## 2026-09-23 — prose revision
 
 Prose rewritten against the house standards. Headings made descriptive (1. Introduction, 2. Conservation constraints, 3. Accounting framework, 4. Sources and mechanisms of discounts, 5. Case studies with 5.1 Functional completeness and switching interfaces, 5.2 Benford's law as a matched prior, 5.3 Morphological computation, 5.4 Morphogenesis and competent components, 6. The inference ladder, 7. Research program, 8. Conclusion). The former closing paragraph of section 7 became section 8.

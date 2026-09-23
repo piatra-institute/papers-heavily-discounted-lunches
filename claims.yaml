@@ -1,0 +1,294 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: 2e27ced830f008120747f6853e96586779af9108064ce1f8928b95ef848c494f
+claims:
+- id: src-levin-blog
+  kind: source
+  passage: 'On his account, physical systems are interfaces onto a latent space of mathematical and agential
+    patterns that are discovered and not authored, and evolution draws competence from that space at a
+    discount he calls a free lunch: once a voltage-gated ion channel exists, truth tables come for free,
+    and once two angles of a triangle are fixed, the third needs no separate determination [@levin2026;
+    @levin2022].'
+  evidence:
+    citation_id: levin2026
+    locator: Blog post text
+    verified: true
+    verification_note: 'Blog post read at thoughtforms.life (published 2026-03-31): patterns are "discovered,
+      not created"; the Platonic Space offers patterns for which learning and evolution "do not need to
+      pay", with the example that once a voltage-gated ion channel is found, "truth tables (and facts
+      like the special nature of NAND) are yours for free". The triangle example was not found in the
+      post and is not covered by this check.'
+- id: src-mcgeer
+  kind: source
+  passage: A two-legged machine with an appropriate mass distribution walks down a shallow slope with
+    no motor, controller, or feedback, its gait supplied by gravity and its own geometry [@mcgeer1990].
+  evidence:
+    citation_id: mcgeer1990
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1177/027836499000900206; the Crossref abstract: a class of two-legged machines
+      settles into a steady gait on a shallow slope without active control or energy input, powered only
+      by gravity.'
+- id: src-nakajima
+  kind: source
+  passage: A soft silicone arm driven at its base performs enough nonlinear filtering in its material
+    that a trained linear readout of its deformations computes functions the base signal alone does not
+    [@nakajima2015].
+  evidence:
+    citation_id: nakajima2015
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1038/srep10487; the Crossref abstract: body dynamics of a soft silicone
+      arm are exploited for real-time computation, emulating nonlinear dynamical systems.'
+- id: src-durant
+  kind: source
+  passage: 'A brief, targeted perturbation of endogenous bioelectric gradients in a regenerating planarian
+    produces a persistent change in the anatomy the fragment rebuilds: a fixed fraction of worms become
+    two-headed and continue to regenerate as two-headed through further rounds of cutting without further
+    intervention [@durant2017].'
+  evidence:
+    citation_id: durant2017
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1016/j.bpj.2017.04.011; abstract (OpenAlex): brief modulation of bioelectric
+      dynamics yields a constant ratio of two-headed to normal regenerates, and subsequent amputations
+      in water reproduce the same ratio.'
+- id: src-wolpert-nfl
+  kind: source
+  passage: '@wolpert1997 proved that when performance is averaged with equal weight over all objective
+    functions, every optimizer performs identically, and superiority on one class of problems is offset
+    by inferiority on its complement.'
+  evidence:
+    citation_id: wolpert1997
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1109/4235.585893; abstract (OpenAlex): no-free-lunch theorems establish
+      that for any algorithm elevated performance over one class of problems is offset by performance
+      over another class.'
+- id: src-candes-donoho
+  kind: source
+  passage: Compressed sensing recovers a sparse signal exactly from far fewer measurements than the naive
+    bound requires, provided the signal is sparse in a basis incoherent with the sampling [@candes2006;
+    @donoho2006].
+  evidence:
+    citation_id: donoho2006
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1109/TIT.2006.871582; abstract (OpenAlex): signals compressible in a known
+      basis can be recovered from far fewer nonadaptive measurements than their size. Candès et al. (abstract,
+      DOI 10.1109/TIT.2005.862083) show exact reconstruction of sparse spike trains from incomplete Fourier
+      samples.'
+- id: src-rothemund
+  kind: source
+  passage: Designed staple strands fold a long DNA scaffold into a target shape [@rothemund2006].
+  evidence:
+    citation_id: rothemund2006
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1038/nature04586; abstract (Europe PMC): a 7-kilobase scaffold is folded
+      into arbitrary two-dimensional shapes by over 200 staple strands.'
+- id: src-theraulaz
+  kind: source
+  passage: Ant-like agents coordinate through traces left in a shared medium in place of direct messages
+    [@theraulaz1999].
+  evidence:
+    citation_id: theraulaz1999
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1162/106454699568700; the Crossref abstract describes stigmergy as mechanisms
+      by which insect-society activities are coordinated though individuals work as if alone.
+- id: src-turing
+  kind: source
+  passage: Reaction-diffusion kinetics lay down a pattern without a central plan [@turing1952].
+  evidence:
+    citation_id: turing1952
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1098/rstb.1952.0012; the Crossref abstract: reacting and diffusing morphogens,
+      initially homogeneous, develop pattern through an instability triggered by random disturbances.'
+- id: src-gould
+  kind: source
+  passage: Exaptation, the redeployment of an existing part to a new function [@gould1982], amortizes
+    the part's original construction cost against a use for which it was not built.
+  evidence:
+    citation_id: gould1982
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1017/S0094837300004310; the Crossref abstract introduces a name for features
+      not built by selection for their current role but available for cooptation.
+- id: src-gumuskaya
+  kind: source
+  passage: Adult human airway cells, released from their tissue and cultured, self-construct into motile
+    ciliated multicellular bodies that were never selected for and that heal wounds in a neural sheet
+    [@gumuskaya2024].
+  evidence:
+    citation_id: gumuskaya2024
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1002/advs.202303575; abstract (Europe PMC): single adult human lung cells
+      self-construct into cilia-powered motile biobots that traverse and induce repair of scratches in
+      cultured human neural cell sheets.'
+- id: src-kriegman
+  kind: source
+  passage: A cluster of frog cells of a particular geometry gathers loose cells into new clusters that
+    move and gather in turn [@kriegman2021].
+  evidence:
+    citation_id: kriegman2021
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1073/pnas.2112672118; significance statement: cell clusters freed from
+      a developing organism find and combine loose cells into clusters that look and move like them; AI-designed
+      shapes replicate better.'
+- id: src-zhang
+  kind: source
+  passage: Classical sorting algorithms rewritten as populations of autonomous elements, each applying
+    the sort rule locally, show added robustness and non-monotone trajectories that have been described
+    as delayed gratification; because the full code and intervention history are available, the behavioural
+    vocabulary can be tied to perturbation tests [@zhang2024].
+  evidence:
+    citation_id: zhang2024
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1177/10597123241269740; the full Crossref abstract: arrays of autonomous
+      elements each implementing the sort policy sort themselves more reliably and robustly than traditional
+      implementations under errors, and can temporarily reduce progress to navigate around a defect (the
+      behaviour the sentence calls delayed gratification).'
+- id: src-kashtan
+  kind: source
+  passage: A modularity study reproduces and extends the modularly varying goals result of @kashtan2005,
+    mapping the boundary at which reusable structure stops accelerating adaptation and begins to mislead
+    it, which makes evolvability a measurable property of a genotype-phenotype map [@wagner1996].
+  evidence:
+    citation_id: kashtan2005
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1073/pnas.0503610102; the Crossref abstract: networks evolved under goals
+      that change in a modular fashion acquire modularity and network motifs.'
+- id: src-berger
+  kind: source
+  passage: The underlying object is the scale-invariant density $f(s)=1/(s\ln b)$ on the significand,
+    the multiplicative geometry of positive quantities normalized to a single order of magnitude, of which
+    the decimal frequencies are the base-10 projection [@berger2011].
+  evidence:
+    citation_id: berger2011
+    locator: Abstract
+    verified: true
+    verification_note: 'DOI 10.1214/11-PS175; abstract (OpenAlex): survey of the logarithmic distribution
+      of significands and the invariance properties that characterise it.'
+- id: src-bongard
+  kind: source
+  passage: 'Polyfunctionality, one substrate carrying several readouts at once [@bongard2023], is an inward
+    form of externalization: several functions are overloaded onto the same material, and the arrangement
+    counts as a discount only when the hardware saved exceeds the added interference and readout cost.'
+  evidence:
+    citation_id: bongard2023
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.3390/biomimetics8010110; title and abstract describe biological systems
+      as evolved, overloaded, multi-scale machines in which form and function are entwined. Bound for
+      the polyfunctionality attribution only.
+- id: benford-values
+  kind: interpretation
+  passage: $$P(D=d)=\log_{10}\!\left(1+\tfrac{1}{d}\right),\qquad P(D=1)\approx 0.301,\quad P(D=9)\approx
+    0.046.$$
+  rationale: 'Arithmetic from the stated law: log10(2) = 0.30103 and log10(10/9) = 0.04576, which round
+    to 0.301 and 0.046.'
+- id: def-hdl
+  kind: definition
+  passage: A heavily discounted lunch is a case in which coupling a system to a structured substrate sharply
+    lowers the effective cost of obtaining a reusable family of outcomes, relative to a matched alternative
+    that must construct or search for those outcomes more independently.
+  rationale: Central stipulative definition of the paper.
+- id: def-discount
+  kind: definition
+  passage: The discount in currency $j$ is the ratio
+  rationale: Defines D_j as baseline effective cost over substrate-and-interface effective cost, with
+    H_j = log10 D_j.
+- id: def-vector
+  kind: definition
+  passage: No single scalar score captures the phenomenon, because costs trade against one another.
+  rationale: Motivates the discount vector over search, samples, energy, control, communication, construction,
+    repair and description length.
+- id: def-leverage
+  kind: definition
+  passage: Leverage relates this breadth to the cost of the interface,
+  rationale: Defines Lambda_epsilon = log(1 + Gamma_epsilon) / (C_setup + C_interface).
+- id: seven-operations
+  kind: interpretation
+  passage: Across sources, the mechanisms reduce to seven operations.
+  rationale: Classification proposed by the paper (entailment, equivalence, compression, delegation, amortization,
+    externalization, protection); a conceptual claim, not an empirical finding.
+- id: nfl-consistency
+  kind: interpretation
+  passage: 'The discount and the theorem are therefore consistent, and the theorem adds a constraint:
+    the discount must be conditional, and a prior that buys competence on the matched distribution must
+    cost competence elsewhere.'
+  rationale: Follows from the No-Free-Lunch theorem as stated (uniform averaging over all objective functions).
+- id: penalty-prediction
+  kind: interpretation
+  passage: The framework accordingly predicts that every real subsidy has such a region.
+  rationale: Prediction derived from the No-Free-Lunch constraint; each case study names its penalty regime.
+- id: info-bound
+  kind: interpretation
+  passage: A closed deterministic program cannot produce algorithmic information beyond that present in
+    its program, inputs, and initial conditions, up to a fixed additive constant [@li2008].
+  rationale: Standard result of algorithmic information theory (textbook statement); not checked against
+    a page of the cited book in this migration.
+- id: ion-channel-weaker
+  kind: interpretation
+  passage: The accurate statement is weaker.
+  rationale: 'The paper''s correction of the free-lunch framing for switching: an ion channel supplies
+    nonlinearity, and gain, cascadability, isolation, power and memory are further costed requirements.'
+- id: capability-threshold
+  kind: assumption
+  passage: The quantity of interest is how capability grows as these requirements are met, and we propose
+    that it grows by thresholds.
+  rationale: Proposed hypothesis (capability phase transitions), stated as a proposal and made testable
+    in the research program.
+- id: completeness-efficiency
+  kind: interpretation
+  passage: Completeness and efficiency are different properties, and this defines the limit of the case.
+  rationale: Functional completeness guarantees existence of a circuit, not its size, depth or discoverability.
+- id: benford-fraud
+  kind: normative
+  passage: A deviation from Benford's law is evidence of fraud only after the generative and sampling
+    conditions have been shown to justify the prior; without that step, the deviation is at least as likely
+    to reflect the range of the data.
+  rationale: Methodological recommendation following from the conditions under which the law holds.
+- id: body-computes
+  kind: normative
+  passage: A defensible claim that a body computes requires a fixed input encoding, a task specified before
+    the readout is chosen, a constrained readout that cannot be retuned per input, comparison against
+    matched controls, generalization to inputs held out of readout training, and perturbation of the physical
+    degrees of freedom that are supposed to perform the work.
+  rationale: Evidential standard proposed by the paper for morphological-computation claims.
+- id: ontology-open
+  kind: interpretation
+  passage: The operational evidence is strong, the ontology is open, and the two must be kept separate.
+  rationale: The morphogenesis data are consistent with attractor, control-loop, collective-computation,
+    developmental-bias and Platonic readings; the paper does not choose among them.
+- id: ladder-levels
+  kind: interpretation
+  passage: Most established discounts reach levels 2 to 4.
+  rationale: Assessment by the paper of where established cases sit on its seven-level inference ladder.
+- id: level6
+  kind: interpretation
+  passage: Level 6 is a separate and much stronger inference, reached only by ruling out the physical
+    and computational accounts at level 5, which no case in this area has done.
+  rationale: Central evidential conclusion regarding the Platonic-space proposal.
+- id: scramble-control
+  kind: assumption
+  passage: In every case, the test of whether a structure supplies a discount is to destroy the structure
+    while holding component count and energy fixed, and to check that the discount disappears.
+  rationale: The proposed diagnostic control of the research program; assumes the structure can be destroyed
+    without changing component count or energy.
+- id: cross-entropy
+  kind: assumption
+  passage: proposed as a comparative hypothesis across systems and not as a physical law.
+  rationale: The cross-entropy scaling of search cost is explicitly a hypothesis.
+- id: accounting-error
+  kind: interpretation
+  passage: Every strong discount must have a demonstrable mismatch region in which it becomes neutral
+    or harmful; by the No-Free-Lunch constraint, a purported subsidy that helps everywhere indicates an
+    accounting error.
+  rationale: Falsifiable prediction derived from the No-Free-Lunch theorem.

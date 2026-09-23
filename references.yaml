@@ -1,0 +1,554 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography. Entries with a DOI were resolved through doi.org
+# content negotiation (CSL-JSON) and checked for year and title; others were matched in Crossref
+# or entered by hand. Provenance per entry is in sources.md.
+references:
+- id: berger2011
+  type: article-journal
+  title: A basic theory of Benford’s Law
+  author:
+  - given: Arno
+    family: Berger
+  - given: Theodore P.
+    family: Hill
+  container-title: Probability Surveys
+  volume: '8'
+  DOI: 10.1214/11-ps175
+  issued:
+    date-parts:
+    - - 2011
+  page: 1-126
+- id: bongard2023
+  type: article-journal
+  title: 'There’s Plenty of Room Right Here: Biological Systems as Evolved, Overloaded, Multi-Scale Machines'
+  author:
+  - given: Joshua
+    family: Bongard
+  - given: Michael
+    family: Levin
+  container-title: Biomimetics
+  volume: '8'
+  issue: '1'
+  page: '110'
+  DOI: 10.3390/biomimetics8010110
+  issued:
+    date-parts:
+    - - 2023
+- id: candes2006
+  type: article-journal
+  title: 'Robust uncertainty principles: exact signal reconstruction from highly incomplete frequency
+    information'
+  author:
+  - given: E.J.
+    family: Candès
+  - given: J.
+    family: Romberg
+  - given: T.
+    family: Tao
+  container-title: IEEE Transactions on Information Theory
+  volume: '52'
+  issue: '2'
+  page: 489-509
+  DOI: 10.1109/tit.2005.862083
+  issued:
+    date-parts:
+    - - 2006
+- id: clark1998
+  type: article-journal
+  title: The Extended Mind
+  author:
+  - given: A.
+    family: Clark
+  - given: D.
+    family: Chalmers
+  container-title: Analysis
+  volume: '58'
+  issue: '1'
+  page: 7-19
+  DOI: 10.1093/analys/58.1.7
+  issued:
+    date-parts:
+    - - 1998
+- id: cohen2016
+  type: paper-conference
+  title: Group Equivariant Convolutional Networks
+  author:
+  - family: Cohen
+    given: Taco
+  - family: Welling
+    given: Max
+  container-title: Proceedings of the 33rd International Conference on Machine Learning
+  collection-title: Proceedings of Machine Learning Research
+  volume: '48'
+  page: 2990-2999
+  URL: https://proceedings.mlr.press/v48/cohenc16.html
+  issued:
+    date-parts:
+    - - 2016
+- id: donoho2006
+  type: article-journal
+  title: Compressed sensing
+  author:
+  - given: D.L.
+    family: Donoho
+  container-title: IEEE Transactions on Information Theory
+  volume: '52'
+  issue: '4'
+  page: 1289-1306
+  DOI: 10.1109/tit.2006.871582
+  issued:
+    date-parts:
+    - - 2006
+- id: draghi2010
+  type: article-journal
+  title: Mutational robustness can facilitate adaptation
+  author:
+  - given: Jeremy A.
+    family: Draghi
+  - given: Todd L.
+    family: Parsons
+  - given: Günter P.
+    family: Wagner
+  - given: Joshua B.
+    family: Plotkin
+  container-title: Nature
+  volume: '463'
+  issue: '7279'
+  page: 353-355
+  DOI: 10.1038/nature08694
+  issued:
+    date-parts:
+    - - 2010
+- id: durant2017
+  type: article-journal
+  title: Long-Term, Stochastic Editing of Regenerative Anatomy via Targeting Endogenous Bioelectric Gradients
+  author:
+  - given: Fallon
+    family: Durant
+  - given: Junji
+    family: Morokuma
+  - given: Christopher
+    family: Fields
+  - given: Katherine
+    family: Williams
+  - given: Dany Spencer
+    family: Adams
+  - given: Michael
+    family: Levin
+  container-title: Biophysical Journal
+  volume: '112'
+  issue: '10'
+  page: 2231-2243
+  DOI: 10.1016/j.bpj.2017.04.011
+  issued:
+    date-parts:
+    - - 2017
+- id: feigenbaum1978
+  type: article-journal
+  title: Quantitative universality for a class of nonlinear transformations
+  author:
+  - given: Mitchell J.
+    family: Feigenbaum
+  container-title: Journal of Statistical Physics
+  volume: '19'
+  issue: '1'
+  page: 25-52
+  DOI: 10.1007/bf01020332
+  issued:
+    date-parts:
+    - - 1978
+- id: finn2017
+  type: paper-conference
+  title: Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks
+  author:
+  - family: Finn
+    given: Chelsea
+  - family: Abbeel
+    given: Pieter
+  - family: Levine
+    given: Sergey
+  container-title: Proceedings of the 34th International Conference on Machine Learning
+  collection-title: Proceedings of Machine Learning Research
+  volume: '70'
+  page: 1126-1135
+  URL: https://proceedings.mlr.press/v70/finn17a.html
+  issued:
+    date-parts:
+    - - 2017
+- id: gould1982
+  type: article-journal
+  title: Exaptation—A Missing Term in the Science of Form
+  author:
+  - given: Stephen Jay
+    family: Gould
+  - given: Elisabeth S.
+    family: Vrba
+  container-title: Paleobiology
+  volume: '8'
+  issue: '1'
+  page: 4-15
+  DOI: 10.1017/s0094837300004310
+  issued:
+    date-parts:
+    - - 1982
+- id: gumuskaya2024
+  type: article-journal
+  title: Motile Living Biobots Self-Construct from Adult Human Somatic Progenitor Seed Cells
+  author:
+  - given: Gizem
+    family: Gumuskaya
+  - given: Pranjal
+    family: Srivastava
+  - given: Ben G.
+    family: Cooper
+  - given: Hannah
+    family: Lesser
+  - given: Ben
+    family: Semegran
+  - given: Simon
+    family: Garnier
+  - given: Michael
+    family: Levin
+  container-title: Advanced Science
+  volume: '11'
+  issue: '4'
+  DOI: 10.1002/advs.202303575
+  issued:
+    date-parts:
+    - - 2024
+  page: '2303575'
+- id: hamming1950
+  type: article-journal
+  title: Error Detecting and Error Correcting Codes
+  author:
+  - given: R. W.
+    family: Hamming
+  container-title: Bell System Technical Journal
+  volume: '29'
+  issue: '2'
+  page: 147-160
+  DOI: 10.1002/j.1538-7305.1950.tb00463.x
+  issued:
+    date-parts:
+    - - 1950
+- id: kashtan2005
+  type: article-journal
+  title: Spontaneous evolution of modularity and network motifs
+  author:
+  - given: Nadav
+    family: Kashtan
+  - given: Uri
+    family: Alon
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '102'
+  issue: '39'
+  page: 13773-13778
+  DOI: 10.1073/pnas.0503610102
+  issued:
+    date-parts:
+    - - 2005
+- id: kriegman2021
+  type: article-journal
+  title: Kinematic self-replication in reconfigurable organisms
+  author:
+  - given: Sam
+    family: Kriegman
+  - given: Douglas
+    family: Blackiston
+  - given: Michael
+    family: Levin
+  - given: Josh
+    family: Bongard
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '118'
+  issue: '49'
+  DOI: 10.1073/pnas.2112672118
+  issued:
+    date-parts:
+    - - 2021
+  page: e2112672118
+- id: levin2022
+  type: article-journal
+  title: 'Technological Approach to Mind Everywhere: An Experimentally-Grounded Framework for Understanding
+    Diverse Bodies and Minds'
+  author:
+  - given: Michael
+    family: Levin
+  container-title: Frontiers in Systems Neuroscience
+  volume: '16'
+  DOI: 10.3389/fnsys.2022.768201
+  issued:
+    date-parts:
+    - - 2022
+  page: '768201'
+- id: levin2026
+  type: post-weblog
+  title: 'A Short Argument on Platonic Space: Variable-Agency Patterns That In-Form Physics, Biology,
+    Computer Science, and Cognitive Science'
+  author:
+  - family: Levin
+    given: Michael
+  container-title: Forms of Life, Forms of Mind (thoughtforms.life)
+  URL: https://thoughtforms.life/a-short-argument-on-platonic-space-variable-agency-patterns-that-in-form-physics-biology-computer-science-and-cognitive-science/
+  issued:
+    date-parts:
+    - - 2026
+      - 3
+      - 31
+- id: li2008
+  type: book
+  title: An Introduction to Kolmogorov Complexity and Its Applications
+  author:
+  - family: Li
+    given: Ming
+  - family: Vitányi
+    given: Paul
+  edition: '3'
+  publisher: Springer
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 2008
+- id: lu2014
+  type: article-journal
+  title: Topological photonics
+  author:
+  - given: Ling
+    family: Lu
+  - given: John D.
+    family: Joannopoulos
+  - given: Marin
+    family: Soljačić
+  container-title: Nature Photonics
+  volume: '8'
+  issue: '11'
+  page: 821-829
+  DOI: 10.1038/nphoton.2014.248
+  issued:
+    date-parts:
+    - - 2014
+- id: mcgeer1990
+  type: article-journal
+  title: Passive Dynamic Walking
+  author:
+  - given: Tad
+    family: McGeer
+  container-title: The International Journal of Robotics Research
+  volume: '9'
+  issue: '2'
+  page: 62-82
+  DOI: 10.1177/027836499000900206
+  issued:
+    date-parts:
+    - - 1990
+- id: nakajima2015
+  type: article-journal
+  title: Information processing via physical soft body
+  author:
+  - given: Kohei
+    family: Nakajima
+  - given: Helmut
+    family: Hauser
+  - given: Tao
+    family: Li
+  - given: Rolf
+    family: Pfeifer
+  container-title: Scientific Reports
+  volume: '5'
+  issue: '1'
+  DOI: 10.1038/srep10487
+  issued:
+    date-parts:
+    - - 2015
+  page: '10487'
+- id: odlingsmee2003
+  type: book
+  title: 'Niche Construction: The Neglected Process in Evolution'
+  author:
+  - family: Odling-Smee
+    given: F. John
+  - family: Laland
+    given: Kevin N.
+  - family: Feldman
+    given: Marcus W.
+  collection-title: Monographs in Population Biology
+  collection-number: '37'
+  publisher: Princeton University Press
+  publisher-place: Princeton, NJ
+  issued:
+    date-parts:
+    - - 2003
+- id: rissanen1978
+  type: article-journal
+  title: Modeling by shortest data description
+  author:
+  - given: J.
+    family: Rissanen
+  container-title: Automatica
+  volume: '14'
+  issue: '5'
+  page: 465-471
+  DOI: 10.1016/0005-1098(78)90005-5
+  issued:
+    date-parts:
+    - - 1978
+- id: rothemund2006
+  type: article-journal
+  title: Folding DNA to create nanoscale shapes and patterns
+  author:
+  - given: Paul W. K.
+    family: Rothemund
+  container-title: Nature
+  volume: '440'
+  issue: '7082'
+  page: 297-302
+  DOI: 10.1038/nature04586
+  issued:
+    date-parts:
+    - - 2006
+- id: sheffer1913
+  type: article-journal
+  title: A set of five independent postulates for Boolean algebras, with application to logical constants
+  author:
+  - given: Henry Maurice
+    family: Sheffer
+  container-title: Transactions of the American Mathematical Society
+  volume: '14'
+  issue: '4'
+  page: 481-488
+  DOI: 10.1090/s0002-9947-1913-1500960-1
+  issued:
+    date-parts:
+    - - 1913
+- id: theraulaz1999
+  type: article-journal
+  title: A Brief History of Stigmergy
+  author:
+  - given: Guy
+    family: Theraulaz
+  - given: Eric
+    family: Bonabeau
+  container-title: Artificial Life
+  volume: '5'
+  issue: '2'
+  page: 97-116
+  DOI: 10.1162/106454699568700
+  issued:
+    date-parts:
+    - - 1999
+- id: turing1952
+  type: article-journal
+  title: The chemical basis of morphogenesis
+  author:
+  - given: Alan Mathison
+    family: Turing
+  container-title: Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences
+  volume: '237'
+  issue: '641'
+  page: 37-72
+  DOI: 10.1098/rstb.1952.0012
+  issued:
+    date-parts:
+    - - 1952
+- id: waddington1942
+  type: article-journal
+  title: Canalization of Development and the Inheritance of Acquired Characters
+  author:
+  - family: Waddington
+    given: C. H.
+  container-title: Nature
+  volume: '150'
+  issue: '3811'
+  page: 563-565
+  DOI: 10.1038/150563a0
+  issued:
+    date-parts:
+    - - 1942
+- id: wagner1996
+  type: article-journal
+  title: 'Perspective: Complex Adaptations and the Evolution of Evolvability'
+  author:
+  - given: Gunter P.
+    family: Wagner
+  - given: Lee
+    family: Altenberg
+  container-title: Evolution
+  volume: '50'
+  issue: '3'
+  page: 967-976
+  DOI: 10.2307/2410639
+  issued:
+    date-parts:
+    - - 1996
+- id: wolpert1969
+  type: article-journal
+  title: Positional information and the spatial pattern of cellular differentiation
+  author:
+  - given: L.
+    family: Wolpert
+  container-title: Journal of Theoretical Biology
+  volume: '25'
+  issue: '1'
+  page: 1-47
+  DOI: 10.1016/s0022-5193(69)80016-0
+  issued:
+    date-parts:
+    - - 1969
+- id: wolpert1997
+  type: article-journal
+  title: No free lunch theorems for optimization
+  author:
+  - given: D.H.
+    family: Wolpert
+  - given: W.G.
+    family: Macready
+  container-title: IEEE Transactions on Evolutionary Computation
+  volume: '1'
+  issue: '1'
+  page: 67-82
+  DOI: 10.1109/4235.585893
+  issued:
+    date-parts:
+    - - 1997
+- id: zaheer2017
+  type: paper-conference
+  title: Deep Sets
+  author:
+  - family: Zaheer
+    given: Manzil
+  - family: Kottur
+    given: Satwik
+  - family: Ravanbakhsh
+    given: Siamak
+  - family: Póczos
+    given: Barnabás
+  - family: Salakhutdinov
+    given: Ruslan
+  - family: Smola
+    given: Alexander J.
+  container-title: Advances in Neural Information Processing Systems
+  volume: '30'
+  page: 3391-3401
+  URL: https://proceedings.neurips.cc/paper_files/paper/2017/hash/f22e4747da1aa27e363d86d40ff442fe-Abstract.html
+  issued:
+    date-parts:
+    - - 2017
+- id: zhang2024
+  type: article-journal
+  title: 'Classical sorting algorithms as a model of morphogenesis: Self-sorting arrays reveal unexpected
+    competencies in a minimal model of basal intelligence'
+  author:
+  - given: Taining
+    family: Zhang
+  - given: Adam
+    family: Goldstein
+  - given: Michael
+    family: Levin
+  container-title: Adaptive Behavior
+  volume: '33'
+  issue: '1'
+  page: 25-54
+  DOI: 10.1177/10597123241269740
+  issued:
+    date-parts:
+    - - 2024
